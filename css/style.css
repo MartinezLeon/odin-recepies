@@ -1,5 +1,48 @@
 /* All css styling on my project is controlled here*/
 
+
+
 body {
-    /*color: red;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    background-image: url(../img/food.png);
+
 }
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #cbaacb;
+    
+
+}
+
+div {
+
+}
+
+.container {
+    margin: 20px;
+
+}
+
+section {
+    color: #c5dbda;
+}
+footer {
+    background-color: #cbaacb;
+    padding: 30px 10px;
+    
+    
+}
+
+.imgRight {
+    float: right;
+    width: 40%; /* Sikrer en bredde på 40 av skjermen*/
+    height: auto; /* sikrer at bildets bredde altid blir proposjonalt med høyde?*/
+}
+
+.list {
+    clear: both;
+}
+
