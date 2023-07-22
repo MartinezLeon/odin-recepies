@@ -1,11 +1,16 @@
 /* All css styling on my project is controlled here*/
 
-
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../img/spikes.jpg);
     margin: 0px;
-    background-image: url(../img/food.png);
+    min-height: 100vh; /* Fire ting som må gjøres for å få footer på bunn alltid*/
+    display: flex; /* Fire ting som må gjøres for å få footer på bunn alltid*/
+    flex-direction: column; /* Fire ting som må gjøres for å få footer på bunn alltid*/
 
 }
 
@@ -13,7 +18,7 @@ header {
     text-align: center;
     padding: 25px;
     background-color: #cbaacb;
-    
+
 
 }
 
@@ -27,11 +32,14 @@ div {
 }
 
 section {
-    color: #c5dbda;
+    color: #ad80ad;
+    margin: 20px;
 }
 footer {
     background-color: #cbaacb;
     padding: 30px 10px;
+    margin-top: auto; /* Fire ting som må gjøres for å få footer på bunn alltid*/
+    line-height: 1.5;
     
     
 }
@@ -39,10 +47,18 @@ footer {
 .imgRight {
     float: right;
     width: 40%; /* Sikrer en bredde på 40 av skjermen*/
+    max-width: 500px;
     height: auto; /* sikrer at bildets bredde altid blir proposjonalt med høyde?*/
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
-.list {
+
+.listRecipes {
+
+}
+
+.list-ingredients-steps {
     clear: both;
 }
 
